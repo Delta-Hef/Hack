@@ -1,0 +1,53 @@
+- !<AssetImportMetadata/0dca9e62-bfe7-425f-b3c3-b89996aae1cb>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 7ff4dc09-147e-41e3-890c-2f9d9085e767
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 7ff4dc09-147e-41e3-890c-2f9d9085e767
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> f372a1a6-73ae-467a-bda4-c496cd1ced04
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/f372a1a6-73ae-467a-bda4-c496cd1ced04>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 8b602389-e349-4173-b52d-c32f293778bc
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    debugLog: false
+    ignitionSoundName: false
+    loopSoundName: false
+    saberManagerObject: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - saberManagerObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      ignitionSoundName: lightsaber-ignition-6816
+      loopSoundName: swing3-94210
+      debugLog: true
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input SceneObject saberManagerObject
+    - '// @input string ignitionSoundName = "lightsaber-ignition-6816"'
+    - '// @input string loopSoundName = "swing3-94210"'
+    - // @input bool debugLog = true

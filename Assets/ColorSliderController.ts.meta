@@ -1,0 +1,54 @@
+- !<AssetImportMetadata/35bf1b72-aa32-48db-af3b-51db53b2eab3>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 560ca873-e185-414c-b612-37da56c16416
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 560ca873-e185-414c-b612-37da56c16416
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 836c75d8-6c81-42d4-9f78-359300e55bfb
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/836c75d8-6c81-42d4-9f78-359300e55bfb>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: f57f00f5-7474-4edb-9734-e70ebbedd5a8
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    colorSabers: false
+    debugLog: false
+    motionSaber: false
+    saberManagerObject: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - saberManagerObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      motionSaber: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      colorSabers: !<reference.SceneObject[]>
+        []
+      debugLog: false
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input SceneObject saberManagerObject
+    - // @input SceneObject motionSaber
+    - "// @input SceneObject[] colorSabers = {}"
+    - // @input bool debugLog = true
