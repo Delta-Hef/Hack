@@ -4,66 +4,7 @@
     - !<own> 70576e4d-4b59-4974-9bce-3cf8f281ed2c
 - !<PassInfo/70576e4d-4b59-4974-9bce-3cf8f281ed2c>
   CachedProperties:
-    - PreviewEnabled:
-        typeIdx: 0
-        value: 0
-    - baseColor:
-        typeIdx: 5
-        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
-    - baseTex:
-        typeIdx: 9
-        value:
-          id: cbf87bf4-0fda-4595-871e-02b34679b909
-          sampler:
-            filteringMode: Trilinear
-            wrapModeU: Repeat
-            wrapModeV: Repeat
-            wrapModeW: Repeat
-            borderColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
-            mipmaps: false
-          type: Texture2D
-    - baseTexTransform:
-        typeIdx: 7
-        value:
-          0: {x: 1.000000, y: 0.000000, z: 0.000000}
-          1: {x: 0.000000, y: 1.000000, z: 0.000000}
-          2: {x: 0.000000, y: 0.000000, z: 1.000000}
-    - metallic:
-        typeIdx: 1
-        value: 0.000000
-    - normalTex:
-        typeIdx: 9
-        value:
-          id: 36b88abc-ee83-4d46-a787-346a4aedcd43
-          sampler:
-            filteringMode: Trilinear
-            wrapModeU: Repeat
-            wrapModeV: Repeat
-            wrapModeW: Repeat
-            borderColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
-            mipmaps: false
-          type: Texture2D
-    - normalTexTransform:
-        typeIdx: 7
-        value:
-          0: {x: 1.000000, y: 0.000000, z: 0.000000}
-          1: {x: 0.000000, y: 1.000000, z: 0.000000}
-          2: {x: 0.000000, y: 0.000000, z: 1.000000}
-    - roughness:
-        typeIdx: 1
-        value: 0.000000
-    - uv2Offset:
-        typeIdx: 3
-        value: {x: 0.000000, y: 0.000000}
-    - uv2Scale:
-        typeIdx: 3
-        value: {x: 1.000000, y: 1.000000}
-    - uv3Offset:
-        typeIdx: 3
-        value: {x: 0.000000, y: 0.000000}
-    - uv3Scale:
-        typeIdx: 3
-        value: {x: 1.000000, y: 1.000000}
+    []
   DepthWrite: true
   DepthTest: true
   DepthFunction: LessEqual
@@ -90,5 +31,64 @@
     - ENABLE_NORMALMAP
   BlendMode: Disabled
   Properties:
-    {}
+    PreviewEnabled:
+      typeIdx: 0
+      value: 0
+    baseColor:
+      typeIdx: 5
+      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    baseTex:
+      typeIdx: 9
+      value:
+        id: cbf87bf4-0fda-4595-871e-02b34679b909
+        sampler:
+          filteringMode: Trilinear
+          wrapModeU: Repeat
+          wrapModeV: Repeat
+          wrapModeW: Repeat
+          borderColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+          mipmaps: false
+        type: Texture2D
+    baseTexTransform:
+      typeIdx: 7
+      value:
+        0: {x: 1.000000, y: 0.000000, z: 0.000000}
+        1: {x: 0.000000, y: 1.000000, z: 0.000000}
+        2: {x: 0.000000, y: 0.000000, z: 1.000000}
+    metallic:
+      typeIdx: 1
+      value: 0.000000
+    normalTex:
+      typeIdx: 9
+      value:
+        id: 36b88abc-ee83-4d46-a787-346a4aedcd43
+        sampler:
+          filteringMode: Trilinear
+          wrapModeU: Repeat
+          wrapModeV: Repeat
+          wrapModeW: Repeat
+          borderColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+          mipmaps: false
+        type: Texture2D
+    normalTexTransform:
+      typeIdx: 7
+      value:
+        0: {x: 1.000000, y: 0.000000, z: 0.000000}
+        1: {x: 0.000000, y: 1.000000, z: 0.000000}
+        2: {x: 0.000000, y: 0.000000, z: 1.000000}
+    roughness:
+      typeIdx: 1
+      value: 0.000000
+    uv2Offset:
+      typeIdx: 3
+      value: {x: 0.000000, y: 0.000000}
+    uv2Scale:
+      typeIdx: 3
+      value: {x: 1.000000, y: 1.000000}
+    uv3Offset:
+      typeIdx: 3
+      value: {x: 0.000000, y: 0.000000}
+    uv3Scale:
+      typeIdx: 3
+      value: {x: 1.000000, y: 1.000000}
   Pass: !<reference> 05954952-b59f-48a0-937b-632ae5cdc1ec

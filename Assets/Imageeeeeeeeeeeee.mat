@@ -1,14 +1,14 @@
-- !<Material/cb13af4b-dbda-4f9f-bfa9-a732bfa2bdb3>
+- !<Material/94eeb4fa-ced9-496f-8d37-05d59b4976d4>
   PackagePath: ""
   PassesInfo:
-    - !<own> 88c0711f-2c1b-4a6a-8e50-9f06fe371c65
-- !<PassInfo/88c0711f-2c1b-4a6a-8e50-9f06fe371c65>
+    - !<own> 565f1366-b982-4440-b4f3-2a61821fefdc
+- !<PassInfo/565f1366-b982-4440-b4f3-2a61821fefdc>
   CachedProperties:
     []
   DepthWrite: true
   DepthTest: true
   DepthFunction: LessEqual
-  TwoSided: true
+  TwoSided: false
   ColorMask: {x: true, y: true, z: true, w: true}
   CullMode: Back
   PolygonOffset: {x: 0.000000, y: 0.000000}
@@ -36,7 +36,7 @@
     baseTex:
       typeIdx: 9
       value:
-        id: cbf87bf4-0fda-4595-871e-02b34679b909
+        id: 5b07a355-ded0-4a6f-befe-bcf532d2ab89
         sampler:
           filteringMode: Trilinear
           wrapModeU: Repeat
